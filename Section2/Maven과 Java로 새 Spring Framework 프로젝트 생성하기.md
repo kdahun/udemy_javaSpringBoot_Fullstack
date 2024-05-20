@@ -1,3 +1,5 @@
+# Spring 프로젝트를 만들고 IDE로 가져오는 과정
+
 Spring 프로젝트를 만드는 가장 좋은 방법은 start.spring.io를 이용하는 것이다.
 https://start.spring.io/ -> spring initializr라는 사이트(프로젝트 이름 정하고 사용할 프레임워크 선택하면 프로젝트 생성
 
@@ -21,3 +23,7 @@ spring 프로젝트를 만들 준비 완료
 
 # 프로젝트 목록창이 안보일때
 ![image](https://github.com/kdahun/udemy_javaSpringBoot_Fullstack/assets/101082485/d5258ebc-1a2f-445c-aa40-45e1dbace11c)
+
+## src/main/java에는 모든 소스 파일 보관
+## scr/main/resources에는 모든 설정 파일 보관
+## src/text/java에는 테스트 코드를 작성

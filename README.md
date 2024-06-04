@@ -1,6 +1,6 @@
 - [Section 3]
   - [27.  Primary와 Qualifier - 어떤 Spring 어노테이션을 사용할까요?](#27primary와-qualifier---어떤-spring-어노테이션을-사용할까요)
-  - [28. Spring Framework 알아보기 - 의존성 주입의 다양한 유형][#28-spring-framework-알아보기---의존성-주입의-다양한-유형]
+  - [28. Spring Framework 알아보기 - 의존성 주입의 다양한 유형](#28-spring-framework-알아보기---의존성-주입의-다양한-유형)
 
 
 # 27.Primary와 Qualifier - 어떤 Spring 어노테이션을 사용할까요?

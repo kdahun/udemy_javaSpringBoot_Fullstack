@@ -218,6 +218,26 @@ public YourBusinessClass(Dependency1 dependency1, Dependency2 dependency2) {
 @Autowired를 생략해도 의존성이 적절하게 자동 와이어링 된것을 확인할 수 있다.
 
 ### Spring 팀은 생성자 기반 주입을 추천한다.
+why? 모든 초기화가 하나의 메소드에서 발생하기 때문 초기화가 완료되면 Bean을 사용할 준비가 된 것이다.
+
+
+# 29. Java Spring Framework - 중요한 용어 이해하기
+- @Component를 클래스에 추가하는 경우, 클래스의 인스턴스는 Spring 프레임워크가 관리하게 된다. @Component를 추가할 때마다 특정 클래스가 ComponentScan에 있다면 해당 클래스의 인스턴스, 즉 Spring Bean이 생성되고 Spring 프레임워크에 의해 관리된다.
+
+- Dependency(의존성) : 예를 들면 MarioGame은 GameRunner의 의존성이다.
+
+- Component Scan : Spring은 컴포넌트의 위치를 파악해야 하는데, 이것이 검색 위치를 알려준다.
+
+- Dependency Injection(의존성 주입) : 
+
+애플리케이션을 실행하면 Spring 프레임워크는 무엇을 할까?
+가장 먼저 컴포넌트 스캔을 수행한다. 
+컴포넌트의 의존성이 무엇인지 식별하고 모두 와이어링하게 된다.
+이 전체 프로세스를 의존성 주입이라고 한다.
+Bean과 의존성을 식별하고 모두 와이어링 하는 작업을 가리킨다.
+(IOC, 즉 제어 반전 
+
+
 
 
 

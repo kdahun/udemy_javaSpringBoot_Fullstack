@@ -1,8 +1,8 @@
 - [Section 3]
-  - [27.  Primary와 Qualifier - 어떤 Spring 어노테이션을 사용할까요?](#27.  Primary와 Qualifier - 어떤 Spring 어노테이션을 사용할까요?)
+  - [27.  Primary와 Qualifier - 어떤 Spring 어노테이션을 사용할까요?](#27primary와-qualifier---어떤-spring-어노테이션을-사용할까요)
 
 
-## 27.Primary와 Qualifier - 어떤 Spring 어노테이션을 사용할까요?
+# 27.Primary와 Qualifier - 어떤 Spring 어노테이션을 사용할까요?
 ```
 @Component @Primary
 class QuickSort implement SortingAlgorithm{}
